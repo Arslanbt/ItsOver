@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:barchart="http://schemas.android.com/apk/res-auto"
+    tools:context=".AppsUsageChart">
+    <me.ithebk.barchart.BarChart
+        android:id="@+id/bar_chart_vertical"
+        barchart:bar_type="vertical"
+        barchart:bar_width="15dp"
+        barchart:bar_color="@color/colorPrimary"
+        barchart:bar_text_color="#808080"
+        barchart:bar_text_size="10sp"
+        barchart:bar_show_auto_color="false"
+        barchart:bar_max_value="100"
+        barchart:bar_spaces = "0dp"
+        barchart:bar_show_value="true"
+        barchart:bar_show_animation="true"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:visibility="gone"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/appsUsageList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

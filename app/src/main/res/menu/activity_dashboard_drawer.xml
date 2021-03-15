@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group>
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_locked_apps"
+            android:icon="@drawable/ic_lock_black_24dp"
+            android:title="@string/menu_locked" />
+        <item
+            android:id="@+id/nav_apps_usage"
+            android:icon="@drawable/ic_list_black_24dp"
+            android:title="@string/menu_usage" />
+
+        <item
+            android:id="@+id/nav_apps_chart"
+            android:icon="@drawable/ic_action_chart"
+            android:title="@string/usage_chart" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="@string/menu_logout" />
+    </group>
+</menu>

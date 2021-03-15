@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Parental Control</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="signup">Sign Up</string>
+    <string name="parent_node_name">Parents</string>
+    <string name="gotoSignIn">Already a member? SignIn</string>
+    <string name="signIn">Sign In</string>
+    <string name="welcome">Welcome</string>
+    <string name="register">New User?Register Here</string>
+    <string name="dummy_name">Name</string>
+    <string name="appIsLocked">App is locked!</string>
+    <string name="startTime">Start Time</string>
+    <string name="endTime">End Time</string>
+    <string name="startDate">Start Date</string>
+    <string name="endDate">End Date</string>
+    <string name="dummy_log">Log</string>
+    <string name="last365days">Last 1 day</string>
+    <string name="forgotPassword">Forgot password?</string>
+    <string name="verifyemail">Verify Email</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_locked">Lock Apps</string>
+    <string name="menu_usage">Apps Usage</string>
+    <string name="usage_chart">Chart</string>
+
+    <string name="menu_logout">Logout</string>
+    <string name="name">Name</string>
+</resources>
